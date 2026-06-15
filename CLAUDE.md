@@ -53,7 +53,7 @@ Bold, high-contrast, modern "results dashboard" aesthetic (matches source PDF) �
 - **Titles:** SEO Consultant | SEO Strategist | Local SEO Specialist | GMB Expert | AEO & GEO Specialist
 - **Location:** Pakistan · Serving Worldwide
 - **Email:** umar.growth.expert@gmail.com
-- **Phone/WhatsApp:** +92 332 4239117
+- **Phone/WhatsApp:** +92 312 4219117
 - **LinkedIn:** linkedin.com/in/muhammadumarseospecialist
 - **Facebook:** facebook.com/umar.localseo.specialist
 - **Tagline/Quote:** "Hyperlocal visibility = hypergrowth. I deliver guaranteed 3x growth for local businesses through technical, on-page, off-page and GMB SEO — engineered for both Google and AI overviews."

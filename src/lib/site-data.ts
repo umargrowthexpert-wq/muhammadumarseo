@@ -12,7 +12,7 @@ export const site = {
   ],
   location: "Pakistan · Serving Worldwide",
   email: "umar.growth.expert@gmail.com",
-  phone: "+92 332 4239117",
+  phone: "+92 312 4219117",
   linkedin: "https://linkedin.com/in/muhammadumarseospecialist",
   facebook: "https://facebook.com/umar.localseo.specialist",
   calendly: "https://calendly.com/umar-growth-expert",
