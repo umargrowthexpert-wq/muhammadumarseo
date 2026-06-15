@@ -9,7 +9,7 @@ Source content: extracted from Muhammad Umar's SEO resume/portfolio PDF (brandin
 - **Framework:** Next.js (App Router) + React + TypeScript
 - **Styling:** Tailwind CSS
 - **Content:** MDX for blog posts & case studies (or local JSON/Markdown collection)
-- **Forms:** Contact form via API route + email service (Resend/Formspree — TBD)
+- **Forms:** Calendly inline embed for consultation booking (no contact form)
 - **Deployment:** Vercel
 - **SEO essentials:** metadata API, sitemap.xml, robots.txt, JSON-LD schema (Person, LocalBusiness, Service, Article, Review/AggregateRating), Open Graph images, Core Web Vitals optimization
 

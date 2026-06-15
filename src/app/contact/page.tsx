@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import SectionLabel from "@/components/SectionLabel";
-import ContactForm from "@/components/ContactForm";
-import { site } from "@/lib/site-data";
+import { site, siteUrl } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Contact | " + site.name,
   description:
-    "Book a free local SEO consultation or request a free audit. Get in touch via email, WhatsApp, LinkedIn or the contact form.",
+    "Book a free local SEO consultation or request a free audit. Get in touch via email, WhatsApp, LinkedIn or schedule a call on Calendly.",
 };
+
+const calendlyEmbedDomain = new URL(siteUrl).hostname;
 
 export default function ContactPage() {
   return (
@@ -39,8 +40,16 @@ export default function ContactPage() {
 
         <div className="grid lg:grid-cols-3 gap-10">
           <div className="lg:col-span-2 order-2 lg:order-1">
-            <SectionLabel number="01" title="Send a Message" />
-            <ContactForm />
+            <SectionLabel number="01" title="Book a Free Consultation" />
+            <div className="rounded-2xl border border-line bg-white overflow-hidden">
+              <iframe
+                src={`${site.calendly}?hide_gdpr_banner=1&hide_event_type_details=1&embed_domain=${calendlyEmbedDomain}&embed_type=Inline`}
+                width="100%"
+                height="750"
+                style={{ border: 0 }}
+                title="Schedule a free consultation with Muhammad Umar"
+              />
+            </div>
           </div>
 
           <div className="order-1 lg:order-2">
