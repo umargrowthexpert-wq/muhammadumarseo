@@ -15,7 +15,7 @@ export const site = {
   phone: "+92 312 4219117",
   linkedin: "https://linkedin.com/in/muhammadumarseospecialist",
   facebook: "https://facebook.com/umar.localseo.specialist",
-  calendly: "https://calendly.com/umar-growth-expert",
+  calendly: "https://calendly.com/umar-growth-expert/30min",
   tagline:
     "Hyperlocal visibility = hypergrowth. I deliver guaranteed 3x growth for local businesses through technical, on-page, off-page and GMB SEO - engineered for both Google and AI overviews.",
   ctaPrimary: "Book a Free Consultation",
