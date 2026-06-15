@@ -409,6 +409,61 @@ export const experience = [
   },
 ];
 
+export const companiesWorkedWith = [
+  {
+    company: "Autom8Growth",
+    location: "Remote",
+    role: "Local SEO Specialist",
+    highlight:
+      "Managing Local SEO and GMB optimization across HVAC, appliance repair, home services, healthcare, dentistry and beauty clients.",
+    points: [
+      "Manage Local SEO and GMB optimization for multiple clients in highly competitive industries (HVAC, appliance repair, home services, healthcare, dentists, chiropractors, beauty).",
+      "Lead social media strategy and brand-aligned content for hyperlocal visibility across Google, Apple Maps and Bing Places.",
+      "Run weekly performance audits and present detailed client reports covering keyword movement, map-pack share and conversion deltas.",
+      "Collaborate with internal design, UX and paid teams to align SEO with funnel performance.",
+    ],
+  },
+  {
+    company: "Self-Employed",
+    location: "50+ Clients Worldwide",
+    role: "Freelance SEO Consultant",
+    highlight:
+      "Managed GMB profiles for 50+ clients, increasing local map-pack rankings by up to 300% in 6 months through citation cleanup and review velocity.",
+    points: [
+      "Managed GMB profiles for 50+ clients across appliance repair, healthcare, dentists, chiropractors, trades, beauty and home services.",
+      "Increased local map-pack rankings by up to 300% in 6 months through citation cleanup, category targeting and review velocity.",
+      "Improved local lead volume by optimizing categories, photos, posts and Q&A entities.",
+      "Delivered weekly SEO reports covering keyword movement, organic traffic and GMB insights.",
+    ],
+  },
+  {
+    company: "Rare Blue Moon Marketing (RBM)",
+    location: "Alberta, Canada",
+    role: "Local SEO Executive",
+    highlight:
+      "Developed and implemented local SEO strategies, GMB optimization and review-response programs for SMEs across Alberta, Canada.",
+    points: [
+      "Developed and implemented local SEO strategies for SMEs across Alberta, Canada.",
+      "Handled GMB optimization, review-response strategy and local outreach to publishers and directories.",
+      "Delivered measurable improvements in rankings and lead generation for service-based businesses.",
+      "Conducted client reporting and competitor audits using BrightLocal and SEMrush.",
+    ],
+  },
+  {
+    company: "Victree Websites",
+    location: "North America",
+    role: "SEO Strategist",
+    highlight:
+      "Led end-to-end SEO strategy and built SEO-ready WordPress + Elementor websites with schema markup and Core Web Vitals fixes for local businesses.",
+    points: [
+      "Led end-to-end SEO strategy for service-based local businesses - keyword research, intent mapping, topical authority planning and competitor gap analysis.",
+      "Designed and built optimized landing pages directly in WordPress + Elementor, with on-page SEO, internal linking architecture and conversion-focused layouts.",
+      "Built local content silos and topical maps for service-area businesses; implemented schema markup (LocalBusiness, Service, FAQ) and Core Web Vitals fixes.",
+      "Coordinated with design and dev teams to ship SEO-ready websites that ranked from launch and converted from organic traffic.",
+    ],
+  },
+];
+
 export const coreCompetencies = [
   { skill: "Google Business Profile (GMB)", level: 98 },
   { skill: "Local SEO Strategy & Execution", level: 96 },

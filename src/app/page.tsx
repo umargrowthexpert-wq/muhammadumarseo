@@ -1,13 +1,11 @@
 import Image from "next/image";
 import Badge from "@/components/Badge";
 import Button from "@/components/Button";
-import CaseStudyCard from "@/components/CaseStudyCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import SectionLabel from "@/components/SectionLabel";
 import {
-  caseStudies,
+  companiesWorkedWith,
   coreExpertise,
-  featuredCaseStudySlugs,
   googleUpdatesExpertise,
   googleUpdatesResult,
   heroStats,
@@ -18,8 +16,6 @@ import {
 } from "@/lib/site-data";
 
 export default function Home() {
-  const featured = caseStudies.filter((c) => featuredCaseStudySlugs.includes(c.slug));
-
   return (
     <>
       {/* Hero */}
@@ -32,15 +28,16 @@ export default function Home() {
               </div>
 
               <h1 className="font-display text-4xl md:text-6xl font-bold max-w-4xl leading-tight">
-                Advanced{" "}
-                <span className="inline-block rounded-lg bg-dark px-2 text-lime">SEO</span>,{" "}
-                <span className="inline-block rounded-lg bg-dark px-2 text-lime">AEO</span> &amp;
-                Strategic Ranking Authority
+                Become the Brand Found by{" "}
+                <span className="inline-block rounded-lg bg-dark px-2 text-lime">Google</span> and
+                Recommended by{" "}
+                <span className="inline-block rounded-lg bg-dark px-2 text-lime">AI</span>
               </h1>
 
               <div className="mt-5">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-dark px-4 py-1.5 text-sm font-semibold text-white">
-                  🎯 Next-Generation Local Search Specialist
+                  <span className="text-lime">(</span> ChatGPT, Gemini, Claude, Perplexity, AI
+                  Overviews <span className="text-lime">)</span>
                 </span>
               </div>
 
@@ -532,21 +529,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Case Studies */}
+      {/* Companies I've Worked With */}
       <section className="container-page py-16 md:py-24">
         <SectionLabel
           number="03"
-          title="Featured Case Studies"
-          description="Real clients, real numbers - proof that hyperlocal visibility drives hypergrowth."
+          title="Companies I've Worked With"
+          description="Agencies and businesses I've partnered with to deliver hyperlocal SEO growth."
         />
-        <div className="grid md:grid-cols-3 gap-6">
-          {featured.map((cs) => (
-            <CaseStudyCard key={cs.slug} caseStudy={cs} />
+        <div className="grid md:grid-cols-2 gap-6">
+          {companiesWorkedWith.map((c) => (
+            <div key={c.company} className="rounded-2xl border border-line bg-white p-6">
+              <div className="flex items-center justify-between gap-2 mb-3">
+                <Badge variant="dark">{c.role}</Badge>
+                <span className="text-xs text-dark/40">{c.location}</span>
+              </div>
+              <h3 className="font-display text-xl font-bold mb-2">{c.company}</h3>
+              <p className="text-sm text-dark/60 mb-4">{c.highlight}</p>
+              <ul className="space-y-2">
+                {c.points.map((point) => (
+                  <li key={point} className="flex gap-2 text-sm text-dark/70">
+                    <span className="text-lime mt-1">◆</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
         </div>
         <div className="mt-8">
-          <Button href="/case-studies" variant="dark">
-            View All Case Studies
+          <Button href="/about" variant="dark">
+            View Full Experience
           </Button>
         </div>
       </section>
