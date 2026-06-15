@@ -21,7 +21,7 @@ export default function TermsPage() {
 
           <h2 className="font-display text-xl font-bold text-dark">Services</h2>
           <p>
-            Information on this site — including case studies, results and statistics — describes
+            Information on this site - including case studies, results and statistics - describes
             past client engagements and is provided for informational purposes. Results vary by
             business, industry, location and competitive landscape. Any specific service
             engagement is governed by a separate agreement between {site.name} and the client.

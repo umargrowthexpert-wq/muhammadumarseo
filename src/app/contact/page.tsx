@@ -16,7 +16,7 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Contact"
         title="Book Your Free Local SEO Consultation"
-        description="Tell me about your business and goals — I'll review your current local search presence and follow up with a free audit."
+        description="Tell me about your business and goals - I'll review your current local search presence and follow up with a free audit."
       />
 
       <section className="container-page py-16 md:py-24">

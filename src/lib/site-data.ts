@@ -17,7 +17,7 @@ export const site = {
   facebook: "https://facebook.com/umar.localseo.specialist",
   calendly: "https://calendly.com/umar-growth-expert",
   tagline:
-    "Hyperlocal visibility = hypergrowth. I deliver guaranteed 3x growth for local businesses through technical, on-page, off-page and GMB SEO — engineered for both Google and AI overviews.",
+    "Hyperlocal visibility = hypergrowth. I deliver guaranteed 3x growth for local businesses through technical, on-page, off-page and GMB SEO - engineered for both Google and AI overviews.",
   ctaPrimary: "Book a Free Consultation",
   ctaSecondary: "View Case Studies",
   ctaBanner: "START WITH A FREE AUDIT · LET'S GET YOU FOUND.",
@@ -28,7 +28,7 @@ export const professionalSummary =
 
 export const whatSetsMeApart = [
   "I don't just rank websites. I build sustainable competitive advantages through intelligent strategy. Every decision is backed by data, competitive analysis, and alignment with Google's latest core updates and algorithm changes.",
-  "I specialize in next-generation ranking methodologies that most SEO specialists don't even know exist yet. Answer Engine Optimization (AEO), semantic SEO, AI-powered content strategy, entity optimization, and topical authority development — these are my core competencies.",
+  "I specialize in next-generation ranking methodologies that most SEO specialists don't even know exist yet. Answer Engine Optimization (AEO), semantic SEO, AI-powered content strategy, entity optimization, and topical authority development - these are my core competencies.",
 ];
 
 export const whyChooseMe = [
@@ -109,7 +109,7 @@ export const keywordGrowth = [
       "recovery clinic Atlanta",
       "cryotherapy near me",
       "injury rehab specialist",
-      "+5 more — all Top 3",
+      "+5 more - all Top 3",
     ],
   },
   {
@@ -121,7 +121,7 @@ export const keywordGrowth = [
       "tree preservation TN",
       "emergency tree service",
       "stump grinding pricing",
-      "+5 more — all Top 5",
+      "+5 more - all Top 5",
     ],
   },
   {
@@ -133,7 +133,7 @@ export const keywordGrowth = [
       "furnace install quote",
       "refrigerator repair same-day",
       "AC tune-up coupon",
-      "+5 more — all Top 3",
+      "+5 more - all Top 3",
     ],
   },
   {
@@ -145,7 +145,7 @@ export const keywordGrowth = [
       "med spa Calgary",
       "laser hair removal",
       "botox specialist",
-      "+5 more — Top 5",
+      "+5 more - Top 5",
     ],
   },
   {
@@ -157,7 +157,7 @@ export const keywordGrowth = [
       "new build flats Manchester",
       "property listings Birmingham",
       "estate agent near me",
-      "+5 more — all Top 5",
+      "+5 more - all Top 5",
     ],
   },
 ];
@@ -166,7 +166,7 @@ export const services = [
   {
     title: "Google Business Profile Optimization",
     description:
-      "Full GMB setup and optimization — categories, services, photos, posts, Q&A and entity data to maximize Map Pack visibility.",
+      "Full GMB setup and optimization - categories, services, photos, posts, Q&A and entity data to maximize Map Pack visibility.",
   },
   {
     title: "Local SEO Audits",
@@ -176,7 +176,7 @@ export const services = [
   {
     title: "Citation Building & Cleanup",
     description:
-      "NAP consistency across 70+ directories and citation sources — cleaning duplicates and building authoritative new listings.",
+      "NAP consistency across 70+ directories and citation sources - cleaning duplicates and building authoritative new listings.",
   },
   {
     title: "Local Keyword Research",
@@ -201,7 +201,7 @@ export const services = [
   {
     title: "Multi-Location SEO",
     description:
-      "Scalable local SEO systems for multi-location and multi-city businesses — consistent NAP, localized content and tracking per location.",
+      "Scalable local SEO systems for multi-location and multi-city businesses - consistent NAP, localized content and tracking per location.",
   },
 ];
 
@@ -210,13 +210,13 @@ export const methodology = [
     step: "01",
     title: "Market & Competitor Intelligence Mapping",
     description:
-      "Deep audit of local SERPs, Map Pack incumbents, GBP gaps, citations, on-page and CWV — we map the territory and find the leaks first.",
+      "Deep audit of local SERPs, Map Pack incumbents, GBP gaps, citations, on-page and CWV - we map the territory and find the leaks first.",
   },
   {
     step: "02",
     title: "Audience Segmentation & Intent Engineering",
     description:
-      "Cluster audiences by city, service and search intent — engineer pages and keywords that match commercial, navigational and AI-prompt patterns.",
+      "Cluster audiences by city, service and search intent - engineer pages and keywords that match commercial, navigational and AI-prompt patterns.",
   },
   {
     step: "03",
@@ -228,13 +228,13 @@ export const methodology = [
     step: "04",
     title: "Multi-Channel Visibility Strategy",
     description:
-      "Search + AI + Local + Social. Semantic, AI-ready content clusters per service & suburb — engineered for AIO, LLM search, Maps and brand-aligned social.",
+      "Search + AI + Local + Social. Semantic, AI-ready content clusters per service & suburb - engineered for AIO, LLM search, Maps and brand-aligned social.",
   },
   {
     step: "05",
     title: "Conversion & Revenue Optimization System",
     description:
-      "Reviews, posts, GBP updates, CRO on landing pages and tracked grid scans — month-over-month compounding calls, bookings and revenue.",
+      "Reviews, posts, GBP updates, CRO on landing pages and tracked grid scans - month-over-month compounding calls, bookings and revenue.",
   },
 ];
 
@@ -256,7 +256,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "Sports Therapy & Recovery",
     website: "synergyreleasesports.com",
     summary:
-      "Hyperlocal landing pages per modality, athlete-intent keyword clusters and Google Posts cadence — driving Top-3 Map Pack across 4 cities in under 6 months.",
+      "Hyperlocal landing pages per modality, athlete-intent keyword clusters and Google Posts cadence - driving Top-3 Map Pack across 4 cities in under 6 months.",
     challenges: [
       "Low visibility across 4 service cities",
       "No modality-specific landing pages (recovery, cryotherapy, rehab)",
@@ -283,7 +283,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "Family Dentistry",
     website: "covingtonfamilydentist.com",
     summary:
-      "Service-line clusters with FAQ + Service schema, NAP cleanup across 70+ citations and a review-velocity program — locked Map Pack #1 for core terms.",
+      "Service-line clusters with FAQ + Service schema, NAP cleanup across 70+ citations and a review-velocity program - locked Map Pack #1 for core terms.",
     challenges: [
       "Inconsistent NAP across 70+ citation sources",
       "No structured schema for services or FAQs",
@@ -310,7 +310,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "Home Services / Arborists",
     website: "fonvilletreeservice.com",
     summary:
-      "Hyperlocal landing pages per service area, technical CWV fixes and a local link campaign with arborist directories — 22 geo-keywords ranked #1.",
+      "Hyperlocal landing pages per service area, technical CWV fixes and a local link campaign with arborist directories - 22 geo-keywords ranked #1.",
     challenges: [
       "Poor Core Web Vitals impacting rankings",
       "No service-area-specific landing pages",
@@ -337,7 +337,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "HVAC & Appliance Repair",
     website: "appliancerepairspringdale.com",
     summary:
-      "Service + brand entity build-out, same-day intent landing pages and a review-acceleration system — locked Top-3 Map Pack across HVAC + appliance verticals.",
+      "Service + brand entity build-out, same-day intent landing pages and a review-acceleration system - locked Top-3 Map Pack across HVAC + appliance verticals.",
     challenges: [
       "Weak brand entity signals across HVAC and appliance verticals",
       "No same-day-intent landing pages for urgent searches",
@@ -401,7 +401,7 @@ export const experience = [
     role: "SEO Strategist",
     company: "Victree Websites · North America",
     points: [
-      "Led end-to-end SEO strategy for service-based local businesses — keyword research, intent mapping, topical authority planning and competitor gap analysis.",
+      "Led end-to-end SEO strategy for service-based local businesses - keyword research, intent mapping, topical authority planning and competitor gap analysis.",
       "Designed and built optimized landing pages directly in WordPress + Elementor, with on-page SEO, internal linking architecture and conversion-focused layouts.",
       "Built local content silos and topical maps for service-area businesses; implemented schema markup (LocalBusiness, Service, FAQ) and Core Web Vitals fixes.",
       "Coordinated with design and dev teams to ship SEO-ready websites that ranked from launch and converted from organic traffic.",
@@ -461,7 +461,7 @@ export const education = [
 ];
 
 export const certifications = [
-  { title: "Google My Business — Basics & Advanced", place: "Google Digital Garage" },
+  { title: "Google My Business - Basics & Advanced", place: "Google Digital Garage" },
   { title: "Mastering Local SEO", place: "BrightLocal Academy" },
   { title: "Local SEO Fundamentals", place: "Moz Academy" },
   { title: "SEO Certification", place: "HubSpot Academy" },
@@ -516,7 +516,7 @@ export const notableSkills = [
   {
     title: "Project Management",
     description:
-      "Running multi-client SEO workflows — audits, content, citations and reviews — without dropped tasks.",
+      "Running multi-client SEO workflows - audits, content, citations and reviews - without dropped tasks.",
   },
   {
     title: "Revenue Growth Strategy",
@@ -642,10 +642,10 @@ export const googleUpdatesExpertise = [
     items: [
       "Google's most important ranking signal for \"Your Money Your Life\" content",
       "We build genuine signals that Google recognizes",
-      "Expertise demonstration — showing you know your field",
-      "Experience validation — proven track record",
-      "Authority building — being recognized as an expert",
-      "Trustworthiness — security, transparency, credentials",
+      "Expertise demonstration - showing you know your field",
+      "Experience validation - proven track record",
+      "Authority building - being recognized as an expert",
+      "Trustworthiness - security, transparency, credentials",
     ],
   },
   {
@@ -697,7 +697,7 @@ export const faqs = [
   {
     question: "What is Local SEO?",
     answer:
-      "Local SEO is the process of optimizing your online presence — Google Business Profile, citations, on-page content and reviews — so your business shows up in local search results and the Google Maps \"Map Pack\" when nearby customers search for your services.",
+      "Local SEO is the process of optimizing your online presence - Google Business Profile, citations, on-page content and reviews - so your business shows up in local search results and the Google Maps \"Map Pack\" when nearby customers search for your services.",
   },
   {
     question: "How long does Local SEO take?",
@@ -707,17 +707,17 @@ export const faqs = [
   {
     question: "Can you help businesses in multiple locations?",
     answer:
-      "Yes. I build scalable multi-location SEO systems — consistent NAP across all locations, localized landing pages per city/suburb, and individual tracking and reporting for each location.",
+      "Yes. I build scalable multi-location SEO systems - consistent NAP across all locations, localized landing pages per city/suburb, and individual tracking and reporting for each location.",
   },
   {
     question: "Do you guarantee rankings?",
     answer:
-      "I don't guarantee specific #1 rankings for every keyword (no ethical SEO can), but I do work toward a guaranteed 3x growth pattern in local visibility metrics — impressions, calls, direction requests and bookings — based on the strategy and timeline we agree on.",
+      "I don't guarantee specific #1 rankings for every keyword (no ethical SEO can), but I do work toward a guaranteed 3x growth pattern in local visibility metrics - impressions, calls, direction requests and bookings - based on the strategy and timeline we agree on.",
   },
   {
     question: "How do you measure results?",
     answer:
-      "Results are tracked through Google Search Console (impressions, clicks, CTR), GBP Insights (calls, direction requests, bookings, profile views) and Local Falcon grid scans (Map Pack rank tracking) — delivered in regular client reports.",
+      "Results are tracked through Google Search Console (impressions, clicks, CTR), GBP Insights (calls, direction requests, bookings, profile views) and Local Falcon grid scans (Map Pack rank tracking) - delivered in regular client reports.",
   },
   {
     question: "What tools do you use?",
@@ -753,7 +753,7 @@ export const testimonials = [
     business: "Appliance Repair Springdale",
     rating: 5,
     feedback:
-      "The same-day-intent landing pages plus the review system completely changed our call volume — up 388% year over year.",
+      "The same-day-intent landing pages plus the review system completely changed our call volume - up 388% year over year.",
   },
 ];
 

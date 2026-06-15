@@ -9,7 +9,7 @@ import { atAGlance, site, siteUrl, testimonials } from "@/lib/site-data";
 export const metadata: Metadata = {
   title: "Testimonials | " + site.name,
   description:
-    "What clients say about working with Muhammad Umar — Map Pack rankings, call volume, bookings and review growth across local SEO engagements.",
+    "What clients say about working with Muhammad Umar - Map Pack rankings, call volume, bookings and review growth across local SEO engagements.",
 };
 
 export default function TestimonialsPage() {
@@ -61,7 +61,7 @@ export default function TestimonialsPage() {
         <SectionLabel
           number="02"
           title="Backed by the Numbers"
-          description="Portfolio-wide performance over the last 6 months — sourced from Google Search Console, GBP Insights and Local Falcon."
+          description="Portfolio-wide performance over the last 6 months - sourced from Google Search Console, GBP Insights and Local Falcon."
         />
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {atAGlance.map((stat, i) => (

@@ -7,7 +7,7 @@ import { coreExpertise, notableSkills, site } from "@/lib/site-data";
 export const metadata: Metadata = {
   title: "Skills | " + site.name,
   description:
-    "Strategic, technical and AI-search skills behind a guaranteed 3x local-pack growth system — from business strategy to GEO, GMB and technical SEO.",
+    "Strategic, technical and AI-search skills behind a guaranteed 3x local-pack growth system - from business strategy to GEO, GMB and technical SEO.",
 };
 
 export default function SkillsPage() {
@@ -16,7 +16,7 @@ export default function SkillsPage() {
       <PageHero
         eyebrow="Skills"
         title="The Skill Set Behind the Results"
-        description="A mix of business strategy, leadership and hands-on technical SEO — the combination that turns audits into rankings, calls and bookings."
+        description="A mix of business strategy, leadership and hands-on technical SEO - the combination that turns audits into rankings, calls and bookings."
       />
 
       {/* Notable Skills */}
@@ -24,7 +24,7 @@ export default function SkillsPage() {
         <SectionLabel
           number="01"
           title="Notable Skills"
-          description="The strategic and operational skills that sit behind every local SEO engagement — planning the work, leading the team and tying it back to revenue."
+          description="The strategic and operational skills that sit behind every local SEO engagement - planning the work, leading the team and tying it back to revenue."
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {notableSkills.map((skill, i) => (

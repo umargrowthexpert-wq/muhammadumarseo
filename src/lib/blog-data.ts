@@ -28,7 +28,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-12",
     readTime: "6 min read",
     excerpt:
-      "Most GBP profiles are half-finished. Here are the specific optimizations I run on every client profile before touching anything else — categories, services, photos, posts and Q&A.",
+      "Most GBP profiles are half-finished. Here are the specific optimizations I run on every client profile before touching anything else - categories, services, photos, posts and Q&A.",
     content: [
       {
         type: "paragraph",
@@ -42,7 +42,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "Your primary category carries the most weight for Map Pack relevance. I test category changes against rank tracking tools like Local Falcon — small shifts here can move a business from page two of the Map Pack into the top 3.",
+          "Your primary category carries the most weight for Map Pack relevance. I test category changes against rank tracking tools like Local Falcon - small shifts here can move a business from page two of the Map Pack into the top 3.",
       },
       {
         type: "heading",
@@ -51,7 +51,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "Every service line should be listed with a description that mirrors how customers actually search — 'same-day AC repair', not just 'HVAC services'. This feeds Google's entity understanding of what you do and where.",
+          "Every service line should be listed with a description that mirrors how customers actually search - 'same-day AC repair', not just 'HVAC services'. This feeds Google's entity understanding of what you do and where.",
       },
       {
         type: "heading",
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "A consistent weekly posting schedule — offers, updates, before/after work — keeps the profile 'active' in Google's eyes and gives you another surface for keyword-relevant content.",
+          "A consistent weekly posting schedule - offers, updates, before/after work - keeps the profile 'active' in Google's eyes and gives you another surface for keyword-relevant content.",
       },
       {
         type: "heading",
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "These ten changes alone have driven measurable Map Pack movement for clients across HVAC, dental and sports therapy — often within the first 30-60 days.",
+          "These ten changes alone have driven measurable Map Pack movement for clients across HVAC, dental and sports therapy - often within the first 30-60 days.",
       },
     ],
   },
@@ -109,12 +109,12 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-03",
     readTime: "7 min read",
     excerpt:
-      "Rankings are a means, not the goal. Here's the framework I use to connect keyword strategy directly to phone calls, bookings and revenue — not just impressions.",
+      "Rankings are a means, not the goal. Here's the framework I use to connect keyword strategy directly to phone calls, bookings and revenue - not just impressions.",
     content: [
       {
         type: "paragraph",
         text:
-          "It's easy to optimize for vanity metrics — impressions, rankings on broad terms — without ever moving the number that matters: phone calls and booked jobs. A local SEO strategy should be built backwards from that number.",
+          "It's easy to optimize for vanity metrics - impressions, rankings on broad terms - without ever moving the number that matters: phone calls and booked jobs. A local SEO strategy should be built backwards from that number.",
       },
       {
         type: "heading",
@@ -132,7 +132,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "Most service business websites are structured around how the owner thinks about the business, not how customers search. Hyperlocal landing pages — one per service/area combination — consistently outperform generic 'Services' pages.",
+          "Most service business websites are structured around how the owner thinks about the business, not how customers search. Hyperlocal landing pages - one per service/area combination - consistently outperform generic 'Services' pages.",
       },
       {
         type: "heading",
@@ -146,7 +146,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "When this framework is applied consistently — page architecture, GBP optimization, citations and reviews all pointed at the same intent clusters — the result is compounding growth in calls and bookings, not just rankings on a dashboard.",
+          "When this framework is applied consistently - page architecture, GBP optimization, citations and reviews all pointed at the same intent clusters - the result is compounding growth in calls and bookings, not just rankings on a dashboard.",
       },
     ],
   },
@@ -162,7 +162,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "Review count, rating and recency all factor into local rankings — and just as importantly, into whether a customer picks up the phone. A profile with 12 reviews from two years ago loses to a competitor with 80 reviews, half from the last quarter.",
+          "Review count, rating and recency all factor into local rankings - and just as importantly, into whether a customer picks up the phone. A profile with 12 reviews from two years ago loses to a competitor with 80 reviews, half from the last quarter.",
       },
       {
         type: "heading",
@@ -171,7 +171,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "The highest-converting review requests happen immediately after a positive interaction — right after a job is completed and the customer expresses satisfaction, not days later via a generic email blast.",
+          "The highest-converting review requests happen immediately after a positive interaction - right after a job is completed and the customer expresses satisfaction, not days later via a generic email blast.",
       },
       {
         type: "heading",
@@ -189,7 +189,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "Responding to reviews — positive and negative — signals an active, trustworthy business to both Google and prospective customers. Negative reviews handled well often convert skeptics into leads.",
+          "Responding to reviews - positive and negative - signals an active, trustworthy business to both Google and prospective customers. Negative reviews handled well often convert skeptics into leads.",
       },
       {
         type: "paragraph",
@@ -210,7 +210,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "Name, Address and Phone (NAP) consistency across the web remains one of the most overlooked local ranking factors — and one of the most common issues I find when auditing new client profiles.",
+          "Name, Address and Phone (NAP) consistency across the web remains one of the most overlooked local ranking factors - and one of the most common issues I find when auditing new client profiles.",
       },
       {
         type: "heading",
@@ -219,7 +219,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "When Google finds conflicting business information across directories, it lowers confidence in the entity's data, which can suppress Map Pack visibility — especially for businesses that have moved, rebranded or changed phone numbers.",
+          "When Google finds conflicting business information across directories, it lowers confidence in the entity's data, which can suppress Map Pack visibility - especially for businesses that have moved, rebranded or changed phone numbers.",
       },
       {
         type: "heading",
@@ -239,7 +239,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "For one dental client, cleaning up 70+ citation sources alongside a service-line content build-out helped lock the #1 Map Pack position for their core terms within a few months — citation cleanup was the foundation that let everything else work.",
+          "For one dental client, cleaning up 70+ citation sources alongside a service-line content build-out helped lock the #1 Map Pack position for their core terms within a few months - citation cleanup was the foundation that let everything else work.",
       },
     ],
   },
@@ -250,12 +250,12 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-02",
     readTime: "8 min read",
     excerpt:
-      "Search is changing — AI Overviews, ChatGPT and Perplexity are answering local queries directly. Here's how Answer Engine Optimization and Generative Engine Optimization apply to local businesses.",
+      "Search is changing - AI Overviews, ChatGPT and Perplexity are answering local queries directly. Here's how Answer Engine Optimization and Generative Engine Optimization apply to local businesses.",
     content: [
       {
         type: "paragraph",
         text:
-          "A growing share of local queries — 'best dentist near me', 'who does same-day appliance repair in X' — are now answered directly by AI Overviews, ChatGPT and Perplexity, often without a click to any website at all. AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization) are how local businesses stay visible in this shift.",
+          "A growing share of local queries - 'best dentist near me', 'who does same-day appliance repair in X' - are now answered directly by AI Overviews, ChatGPT and Perplexity, often without a click to any website at all. AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization) are how local businesses stay visible in this shift.",
       },
       {
         type: "heading",
@@ -264,7 +264,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "LLMs and AI Overviews lean heavily on structured, consistent entity data — your GBP, schema markup, citations and on-page content all need to describe the same business, services and locations in the same way.",
+          "LLMs and AI Overviews lean heavily on structured, consistent entity data - your GBP, schema markup, citations and on-page content all need to describe the same business, services and locations in the same way.",
       },
       {
         type: "heading",
@@ -282,12 +282,12 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "LocalBusiness, Service, FAQ and Review schema help both traditional crawlers and AI systems understand exactly what a business offers, where, and what customers think of it — increasing the odds of being cited as a source.",
+          "LocalBusiness, Service, FAQ and Review schema help both traditional crawlers and AI systems understand exactly what a business offers, where, and what customers think of it - increasing the odds of being cited as a source.",
       },
       {
         type: "paragraph",
         text:
-          "The businesses that treat AEO/GEO as an extension of their existing local SEO — rather than a separate initiative — are the ones showing up when someone asks an AI assistant for a recommendation in their area.",
+          "The businesses that treat AEO/GEO as an extension of their existing local SEO - rather than a separate initiative - are the ones showing up when someone asks an AI assistant for a recommendation in their area.",
       },
     ],
   },
@@ -303,7 +303,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text:
-          "Google Posts show up directly in your Business Profile and sometimes in search results — a free, often-ignored channel for local visibility and keyword relevance.",
+          "Google Posts show up directly in your Business Profile and sometimes in search results - a free, often-ignored channel for local visibility and keyword relevance.",
       },
       {
         type: "heading",

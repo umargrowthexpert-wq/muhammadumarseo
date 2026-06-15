@@ -105,7 +105,7 @@ export default function Home() {
                 <div className="relative h-full w-full overflow-hidden rounded-full border-4 border-dark shadow-xl">
                   <Image
                     src="/images/umar-headshot.jpg"
-                    alt={`${site.name} — Local SEO Specialist`}
+                    alt={`${site.name} - Local SEO Specialist`}
                     fill
                     priority
                     sizes="(min-width: 768px) 384px, 240px"
@@ -150,12 +150,12 @@ export default function Home() {
             <div className="mt-6 max-w-xl space-y-4 text-dark/70">
               <p>
                 I&apos;m {site.name}, a Local SEO Specialist helping local businesses dominate
-                Google Maps, Google Business Profile and AI-generated search results —
+                Google Maps, Google Business Profile and AI-generated search results -
                 combining technical audits, citation building and geo-targeted content for
                 measurable growth.
               </p>
               <p>
-                From HVAC and appliance repair to dentistry, sports therapy and real estate —
+                From HVAC and appliance repair to dentistry, sports therapy and real estate -
                 I&apos;ve helped 50+ clients grow calls, bookings and map-pack visibility by up
                 to 10x, with strategies engineered for both traditional SERPs and AI
                 Overviews.
@@ -196,7 +196,7 @@ export default function Home() {
             <div className="relative aspect-square w-full overflow-hidden rounded-2xl">
               <Image
                 src="/images/umar-headshot.jpg"
-                alt={`${site.name} — Local SEO Specialist`}
+                alt={`${site.name} - Local SEO Specialist`}
                 fill
                 sizes="(min-width: 768px) 480px, 100vw"
                 className="object-cover"
@@ -244,7 +244,7 @@ export default function Home() {
                   Google Maps, Google Search, AI Overviews, ChatGPT, Gemini and Perplexity
                 </strong>{" "}
                 through GMB optimization, entity-based local SEO, geo-targeted content and
-                review velocity — engineered for both traditional SERPs and AI search.
+                review velocity - engineered for both traditional SERPs and AI search.
               </p>
               <p>
                 Successfully delivered growth campaigns for{" "}
@@ -252,7 +252,7 @@ export default function Home() {
                   50+ clients across HVAC, dental, sports therapy, tree services, real estate
                   and home services
                 </strong>{" "}
-                — generating up to 10x keyword visibility, 300% map-pack growth and a
+                - generating up to 10x keyword visibility, 300% map-pack growth and a
                 guaranteed 3x local-pack growth pattern.
               </p>
             </div>
@@ -308,7 +308,7 @@ export default function Home() {
           Proof, not promises.
         </h2>
         <p className="mt-4 max-w-xl text-dark/60">
-          Live client dashboards from Google Search Console and Google Business Profile —
+          Live client dashboards from Google Search Console and Google Business Profile -
           real numbers, real accounts, no mockups.
         </p>
 
@@ -360,7 +360,7 @@ export default function Home() {
               />
             </div>
             <p className="px-5 py-4 text-sm text-dark/60">
-              128K impressions and 7.37K clicks from a standing start — steady organic
+              128K impressions and 7.37K clicks from a standing start - steady organic
               compounding.
             </p>
           </div>
@@ -405,7 +405,7 @@ export default function Home() {
               One playbook for Google, Maps and <span className="text-lime">AI search</span>.
             </h2>
             <p className="max-w-md text-white/60">
-              From classic technical SEO to ranking inside ChatGPT, Gemini and AI Overviews — a
+              From classic technical SEO to ranking inside ChatGPT, Gemini and AI Overviews - a
               full stack engineered for how people search today, and how they&apos;ll search
               next.
             </p>
@@ -452,7 +452,7 @@ export default function Home() {
           </h2>
           <p className="max-w-md text-dark/60">
             Deep expertise in Google&apos;s latest algorithms, core updates, and emerging best
-            practices. The SEO landscape changes every month — I stay on the cutting edge.
+            practices. The SEO landscape changes every month - I stay on the cutting edge.
           </p>
         </div>
 
@@ -490,7 +490,7 @@ export default function Home() {
         <SectionLabel
           number="01"
           title="Services Snapshot"
-          description="A full local SEO system — from technical audits to GMB optimization, citations, content and reviews."
+          description="A full local SEO system - from technical audits to GMB optimization, citations, content and reviews."
         />
         <div className="grid md:grid-cols-3 gap-6">
           {services.slice(0, 6).map((service) => (
@@ -537,7 +537,7 @@ export default function Home() {
         <SectionLabel
           number="03"
           title="Featured Case Studies"
-          description="Real clients, real numbers — proof that hyperlocal visibility drives hypergrowth."
+          description="Real clients, real numbers - proof that hyperlocal visibility drives hypergrowth."
         />
         <div className="grid md:grid-cols-3 gap-6">
           {featured.map((cs) => (

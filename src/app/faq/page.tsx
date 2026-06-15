@@ -8,7 +8,7 @@ import { faqs, site } from "@/lib/site-data";
 export const metadata: Metadata = {
   title: "FAQ | " + site.name,
   description:
-    "Frequently asked questions about local SEO — timelines, multi-location strategy, ranking guarantees, tools and how results are measured.",
+    "Frequently asked questions about local SEO - timelines, multi-location strategy, ranking guarantees, tools and how results are measured.",
 };
 
 export default function FaqPage() {

@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
 
           <h2 className="font-display text-xl font-bold text-dark">Information I Collect</h2>
           <p>
-            When you submit the contact form, I collect the information you provide — name, email
+            When you submit the contact form, I collect the information you provide - name, email
             address, business name, website URL, services needed and your message. I do not
             collect any information automatically beyond standard hosting and analytics logs.
           </p>

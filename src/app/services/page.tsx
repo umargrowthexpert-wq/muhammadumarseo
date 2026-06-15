@@ -33,7 +33,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Services"
         title="A Complete Local SEO System"
-        description="From technical audits to GMB optimization, citations, content and reviews — everything your business needs to win the Map Pack and convert local search traffic."
+        description="From technical audits to GMB optimization, citations, content and reviews - everything your business needs to win the Map Pack and convert local search traffic."
       />
 
       {/* Services grid */}
@@ -41,7 +41,7 @@ export default function ServicesPage() {
         <SectionLabel
           number="01"
           title="What I Offer"
-          description="Each service is designed to compound — together they build the entity authority and conversion systems that drive guaranteed local growth."
+          description="Each service is designed to compound - together they build the entity authority and conversion systems that drive guaranteed local growth."
         />
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
@@ -69,7 +69,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <p className="mt-3 text-white/60 max-w-2xl">
-              Every engagement follows this framework — from market intelligence to a compounding
+              Every engagement follows this framework - from market intelligence to a compounding
               conversion and revenue system.
             </p>
           </div>

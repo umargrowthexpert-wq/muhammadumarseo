@@ -45,7 +45,7 @@ export default function ContactForm() {
   if (status === "success") {
     return (
       <div className="rounded-2xl border border-line bg-white p-8 text-center">
-        <h3 className="font-display text-xl font-bold mb-2">Thanks — message sent!</h3>
+        <h3 className="font-display text-xl font-bold mb-2">Thanks - message sent!</h3>
         <p className="text-sm text-dark/60 mb-5">
           I&apos;ll get back to you within 1 business day. In the meantime, feel free to check
           out the case studies or reach me directly via WhatsApp.
@@ -107,7 +107,7 @@ export default function ContactForm() {
               {service.title}
             </option>
           ))}
-          <option value="Not Sure / Free Audit">Not Sure — Send Me a Free Audit</option>
+          <option value="Not Sure / Free Audit">Not Sure - Send Me a Free Audit</option>
         </select>
       </div>
 
