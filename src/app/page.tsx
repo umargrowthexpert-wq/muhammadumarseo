@@ -8,6 +8,8 @@ import {
   caseStudies,
   coreExpertise,
   featuredCaseStudySlugs,
+  googleUpdatesExpertise,
+  googleUpdatesResult,
   heroStats,
   methodology,
   services,
@@ -30,24 +32,28 @@ export default function Home() {
               </div>
 
               <h1 className="font-display text-4xl md:text-6xl font-bold max-w-4xl leading-tight">
-                Become the Brand Found by{" "}
-                <span className="inline-block rounded-lg bg-dark px-2 text-lime">Google</span>{" "}
-                and Recommended by{" "}
-                <span className="inline-block rounded-lg bg-dark px-2 text-lime">AI</span>
+                Advanced{" "}
+                <span className="inline-block rounded-lg bg-dark px-2 text-lime">SEO</span>,{" "}
+                <span className="inline-block rounded-lg bg-dark px-2 text-lime">AEO</span> &amp;
+                Strategic Ranking Authority
               </h1>
 
               <div className="mt-5">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-dark px-4 py-1.5 text-sm font-semibold text-white">
-                  <span className="text-lime">(</span>
-                  ChatGPT, Gemini, Claude, Perplexity, AI Overviews
-                  <span className="text-lime">)</span>
+                  🎯 Next-Generation Local Search Specialist
                 </span>
               </div>
 
               <p className="mt-6 max-w-2xl text-base md:text-lg text-dark/70">
-                I&apos;m {site.name}, a Local SEO Specialist focused on both classic SEO and AEO
-                &amp; GEO — combining advanced GMB optimization, citation building, geo-targeted
-                SEO and AI-ready content strategy engineered for a guaranteed 3x growth pattern.
+                Transforming your business into a dominant search authority. I specialize in
+                cutting-edge SEO tactics, Answer Engine Optimization (AEO), geo-targeted
+                strategies, and Google&apos;s latest algorithm compliance.
+              </p>
+              <p className="mt-4 max-w-2xl text-base md:text-lg text-dark/70">
+                <strong className="font-display text-dark">My proven methodology:</strong>{" "}
+                Strategic keyword analysis + semantic optimization + AI-powered content +
+                authority building + Google update alignment = Sustainable dominance in your
+                local market.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
@@ -59,11 +65,11 @@ export default function Home() {
               </div>
 
               <div className="mt-10 flex flex-wrap gap-4">
-                <Button href="/case-studies" variant="dark">
-                  {site.ctaSecondary}
+                <Button href="/contact" variant="dark">
+                  Start Your Local Domination Strategy
                 </Button>
-                <Button href="/contact" variant="outline" className="bg-white">
-                  {site.ctaPrimary}
+                <Button href="/services" variant="outline" className="bg-white">
+                  Explore My Advanced Services
                 </Button>
               </div>
             </div>
@@ -428,6 +434,54 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Google Algorithm Expertise */}
+      <section className="container-page py-16 md:py-24">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="h-px w-6 bg-lime" />
+          <span className="text-xs font-semibold uppercase tracking-widest text-dark/50">
+            Modern SEO & Google Core Updates Expertise
+          </span>
+        </div>
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+          <h2 className="font-display text-3xl md:text-5xl font-bold leading-tight max-w-2xl">
+            Stay Ahead With Google&apos;s Latest{" "}
+            <span className="inline-block rounded-lg bg-lime px-2">Algorithm Changes</span>
+          </h2>
+          <p className="max-w-md text-dark/60">
+            Deep expertise in Google&apos;s latest algorithms, core updates, and emerging best
+            practices. The SEO landscape changes every month — I stay on the cutting edge.
+          </p>
+        </div>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {googleUpdatesExpertise.map((group) => (
+            <div key={group.letter} className="rounded-2xl border border-line bg-white p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-dark text-lime font-display text-sm font-bold">
+                  {group.letter}
+                </span>
+                <h3 className="font-display text-base font-bold leading-snug">{group.title}</h3>
+              </div>
+              <ul className="space-y-2">
+                {group.items.map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-sm text-dark/60">
+                    <span className="mt-2 h-1 w-1 rounded-full bg-lime shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-8 rounded-2xl border border-line bg-dark p-6 md:p-8">
+          <p className="text-xs font-semibold uppercase tracking-widest text-lime mb-3">
+            The Result
+          </p>
+          <p className="text-white/80 max-w-2xl">{googleUpdatesResult}</p>
         </div>
       </section>
 

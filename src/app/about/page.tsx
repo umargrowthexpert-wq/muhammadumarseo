@@ -5,6 +5,7 @@ import ProgressBar from "@/components/ProgressBar";
 import Badge from "@/components/Badge";
 import Button from "@/components/Button";
 import {
+  aboutPhilosophy,
   certifications,
   coreCompetencies,
   education,
@@ -14,6 +15,8 @@ import {
   professionalSummary,
   site,
   tools,
+  whatSetsMeApart,
+  whyChooseMe,
 } from "@/lib/site-data";
 
 export const metadata: Metadata = {
@@ -26,13 +29,44 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About Me"
-        title={`Hi, I'm ${site.name} — Local SEO Specialist`}
+        title="Strategic Local Search Authority & Algorithm Expert"
         description={professionalSummary}
       />
 
+      {/* What Sets Me Apart */}
+      <section className="container-page py-16 md:py-24">
+        <SectionLabel number="01" title="What Sets Me Apart" />
+        <div className="max-w-3xl space-y-4 text-dark/70">
+          {whatSetsMeApart.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </div>
+
+        <div className="mt-12">
+          <h3 className="font-display text-xl md:text-2xl font-bold mb-6">
+            Why Businesses Choose Me
+          </h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {whyChooseMe.map((item) => (
+              <div key={item.title} className="rounded-2xl border border-line bg-white p-5">
+                <h4 className="font-display font-bold mb-2">{item.title}</h4>
+                <p className="text-sm text-dark/60">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-12 rounded-2xl border border-line bg-dark p-6 md:p-8">
+          <p className="text-xs font-semibold uppercase tracking-widest text-lime mb-3">
+            My Philosophy
+          </p>
+          <p className="text-white/80 max-w-2xl">{aboutPhilosophy}</p>
+        </div>
+      </section>
+
       {/* Experience */}
       <section className="container-page py-16 md:py-24">
-        <SectionLabel number="01" title="Experience" />
+        <SectionLabel number="02" title="Experience" />
         <div className="space-y-6">
           {experience.map((job) => (
             <div key={job.role} className="rounded-2xl border border-line bg-white p-6 md:p-8">
@@ -59,7 +93,7 @@ export default function AboutPage() {
           <div className="mb-10">
             <div className="flex items-center gap-3">
               <span className="flex h-8 w-8 items-center justify-center rounded-full bg-lime text-dark font-display text-sm font-bold">
-                02
+                03
               </span>
               <h2 className="font-display text-2xl md:text-3xl font-bold">My Approach</h2>
             </div>
@@ -78,7 +112,7 @@ export default function AboutPage() {
 
       {/* Core Competencies */}
       <section className="container-page py-16 md:py-24">
-        <SectionLabel number="03" title="Core Competencies" />
+        <SectionLabel number="04" title="Core Competencies" />
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-5">
           {coreCompetencies.map((item) => (
             <ProgressBar key={item.skill} label={item.skill} level={item.level} />
@@ -88,7 +122,7 @@ export default function AboutPage() {
 
       {/* Tools */}
       <section className="container-page py-16 md:py-24">
-        <SectionLabel number="04" title="Tools & Platforms" />
+        <SectionLabel number="05" title="Tools & Platforms" />
         <div className="flex flex-wrap gap-3">
           {tools.map((tool) => (
             <Badge key={tool} variant="outline" className="bg-white">
@@ -100,7 +134,7 @@ export default function AboutPage() {
 
       {/* Education & Certifications */}
       <section className="container-page py-16 md:py-24">
-        <SectionLabel number="05" title="Education & Certifications" />
+        <SectionLabel number="06" title="Education & Certifications" />
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-6">
             {education.map((edu) => (

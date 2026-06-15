@@ -24,7 +24,38 @@ export const site = {
 };
 
 export const professionalSummary =
-  "SEO expert specializing in AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization), focused on entity-based, intent-driven strategies for modern search — AI, voice and SGE. Skilled in technical, semantic and local SEO to drive rankings, visibility and conversions across both traditional SERPs and AI-generated results. Proven ability to boost local search performance, improve online reputation and manage brand consistency across web and social — combining advanced GMB optimization, citation building, geo-targeted SEO and a content strategy engineered for a guaranteed 3x growth pattern.";
+  "I'm Muhammad Umar, a results-driven SEO & AEO specialist who transforms businesses into dominant local search authorities. With 5+ years of hands-on expertise and a portfolio of 50+ successfully optimized businesses, I combine advanced technical knowledge with strategic thinking to deliver measurable, sustainable results.";
+
+export const whatSetsMeApart = [
+  "I don't just rank websites. I build sustainable competitive advantages through intelligent strategy. Every decision is backed by data, competitive analysis, and alignment with Google's latest core updates and algorithm changes.",
+  "I specialize in next-generation ranking methodologies that most SEO specialists don't even know exist yet. Answer Engine Optimization (AEO), semantic SEO, AI-powered content strategy, entity optimization, and topical authority development — these are my core competencies.",
+];
+
+export const whyChooseMe = [
+  {
+    title: "Strategic Thinking",
+    description: "I analyze your entire competitive landscape and build unbeatable strategies.",
+  },
+  {
+    title: "Modern Expertise",
+    description: "Master of Google's latest algorithms, Core Updates, and E-E-A-T signals.",
+  },
+  {
+    title: "Advanced Tactics",
+    description: "I use sophisticated methodologies that separate leaders from competitors.",
+  },
+  {
+    title: "Proven Results",
+    description: "Real numbers, real clients, real growth.",
+  },
+  {
+    title: "Future-Proof",
+    description: "My strategies remain effective through algorithm changes.",
+  },
+];
+
+export const aboutPhilosophy =
+  "SEO isn't about tactics. It's about building genuine authority that search engines reward. When you combine technical excellence, content quality, genuine authority signals, and strategic timing, rankings follow naturally.";
 
 export const heroStats = [
   { value: "5+", label: "Years Experience" },
@@ -593,6 +624,74 @@ export const coreExpertise = [
     items: ["Microsoft Clarity", "AI & Automation Workflows", "ChatGPT", "Claude"],
   },
 ];
+
+export const googleUpdatesExpertise = [
+  {
+    letter: "A",
+    title: "Google Core Updates Compliance",
+    items: [
+      "Every Google Core Update changes ranking factors",
+      "Many businesses LOSE rankings after updates",
+      "My strategy: build resilience, recover from penalties, capitalize on changes",
+      "Staying compliant with current update requirements",
+    ],
+  },
+  {
+    letter: "B",
+    title: "E-E-A-T Signals (Expertise, Experience, Authority, Trustworthiness)",
+    items: [
+      "Google's most important ranking signal for \"Your Money Your Life\" content",
+      "We build genuine signals that Google recognizes",
+      "Expertise demonstration — showing you know your field",
+      "Experience validation — proven track record",
+      "Authority building — being recognized as an expert",
+      "Trustworthiness — security, transparency, credentials",
+    ],
+  },
+  {
+    letter: "C",
+    title: "Core Web Vitals & Technical Excellence",
+    items: [
+      "Page speed, mobile usability, visual stability",
+      "These are direct ranking factors",
+      "We optimize for speed AND user experience",
+      "Mobile-first optimization (60%+ searches are mobile)",
+    ],
+  },
+  {
+    letter: "D",
+    title: "Helpful Content Algorithm Alignment",
+    items: [
+      "Google rewards \"helpful\" content written for humans",
+      "Not manipulation, not automation, genuine value",
+      "We create content that actually helps your audience",
+      "Strategy: user-first content = Google rewards it",
+    ],
+  },
+  {
+    letter: "E",
+    title: "Spam Detection & Quality Signals",
+    items: [
+      "Understanding what Google considers spam",
+      "Avoiding penalties through smart strategy",
+      "Building genuine quality signals",
+      "Recovery from algorithmic penalties",
+    ],
+  },
+  {
+    letter: "F",
+    title: "Google Algorithm Monitoring & Adaptation",
+    items: [
+      "I track Google updates and ranking changes",
+      "Quick adaptation to new algorithm changes",
+      "Proactive adjustments before updates hit",
+      "Future-proofing your strategy",
+    ],
+  },
+];
+
+export const googleUpdatesResult =
+  "Your rankings remain stable or improve even when Google updates their algorithm. You're building sustainable authority, not fragile tactics.";
 
 export const faqs = [
   {
