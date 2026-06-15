@@ -302,64 +302,38 @@ export default function Home() {
           Proof, not promises.
         </h2>
         <p className="mt-4 max-w-xl text-dark/60">
-          Live client dashboards from Google Search Console, Google Business Profile and
-          Local Falcon grid scans — real numbers, real accounts, no mockups.
+          Live client dashboards from Google Search Console and Google Business Profile —
+          real numbers, real accounts, no mockups.
         </p>
 
-        {/* Featured: Local Falcon grid scan */}
+        {/* Featured: Search Console 6-month compare */}
         <div className="mt-10 rounded-2xl border border-line bg-white overflow-hidden">
           <div className="flex flex-wrap items-center justify-between gap-3 px-6 py-4 border-b border-line">
             <span className="text-xs font-semibold uppercase tracking-widest text-dark/40">
-              Local Falcon · Map Pack Grid Scan
+              Search Console · 6-Month Compare
             </span>
             <span className="font-display text-lg md:text-xl font-bold">
-              Page 2{" "}
-              <span className="text-dark/30 mx-1">→</span>{" "}
-              <span className="rounded-md bg-lime px-2 py-0.5 text-dark">Top 3 Map Pack</span>
+              <span className="rounded-md bg-lime px-2 py-0.5 text-dark">1.31M</span> impressions
+              · <span className="rounded-md bg-lime px-2 py-0.5 text-dark">9.72K</span> clicks
             </span>
           </div>
-          <div className="relative aspect-[21/10] w-full bg-cream">
+          <div className="relative aspect-[16/9] w-full bg-[#eef1f5]">
             <Image
-              src="/images/results/before-after.jpg"
-              alt="Local Falcon grid scan showing Map Pack ranking improvement across the full service area"
+              src="/images/results/gsc-2.jpg"
+              alt="Google Search Console 6-month comparison: 1.31M impressions, 9.72K clicks, average position improved from 35.3 to 7.5"
               fill
               sizes="(min-width: 768px) 1024px, 100vw"
-              className="object-cover"
+              className="object-contain"
             />
           </div>
           <p className="px-6 py-4 text-sm text-dark/60">
-            Full-area grid scan across every search point in the service area — from buried
-            on page two to dominating the top 3, in under 6 months.
+            Impressions and clicks climbing month over month, with average position improving
+            from 35.3 to 7.5 over the comparison window.
           </p>
         </div>
 
         {/* Detail cards */}
-        <div className="mt-6 grid md:grid-cols-3 gap-6">
-          <div className="rounded-2xl border border-line bg-white overflow-hidden flex flex-col">
-            <div className="px-5 py-4 border-b border-line">
-              <span className="text-xs font-semibold uppercase tracking-widest text-dark/40">
-                Search Console · 6-Month Compare
-              </span>
-              <p className="mt-1 font-display text-lg font-bold">
-                <span className="rounded-md bg-lime px-1.5 py-0.5 text-dark">1.31M</span>{" "}
-                Impressions · 9.72K Clicks
-              </p>
-            </div>
-            <div className="relative aspect-[16/10] w-full bg-cream">
-              <Image
-                src="/images/results/gsc-2.jpg"
-                alt="Google Search Console 6-month comparison: 1.31M impressions, 9.72K clicks"
-                fill
-                sizes="(min-width: 768px) 400px, 100vw"
-                className="object-cover object-top"
-              />
-            </div>
-            <p className="px-5 py-4 text-sm text-dark/60">
-              Impressions and clicks climbing month over month, with average position
-              improving from 35.3 to 7.5.
-            </p>
-          </div>
-
+        <div className="mt-6 grid md:grid-cols-2 gap-6">
           <div className="rounded-2xl border border-line bg-white overflow-hidden flex flex-col">
             <div className="px-5 py-4 border-b border-line">
               <span className="text-xs font-semibold uppercase tracking-widest text-dark/40">
@@ -370,17 +344,18 @@ export default function Home() {
                 128K Impressions
               </p>
             </div>
-            <div className="relative aspect-[16/10] w-full bg-cream">
+            <div className="relative aspect-[16/10] w-full bg-[#eef1f5]">
               <Image
                 src="/images/results/gsc-1.jpg"
                 alt="Google Search Console growth: 128K impressions, 7.37K clicks, 5.8% CTR"
                 fill
-                sizes="(min-width: 768px) 400px, 100vw"
+                sizes="(min-width: 768px) 500px, 100vw"
                 className="object-cover object-top"
               />
             </div>
             <p className="px-5 py-4 text-sm text-dark/60">
-              7.37K clicks from a standing start — steady organic compounding.
+              128K impressions and 7.37K clicks from a standing start — steady organic
+              compounding.
             </p>
           </div>
 
@@ -394,17 +369,17 @@ export default function Home() {
                 +17.4% YoY
               </p>
             </div>
-            <div className="relative aspect-[16/10] w-full bg-cream">
+            <div className="relative aspect-[16/10] w-full bg-[#eef1f5]">
               <Image
                 src="/images/results/gbp-calls.jpg"
                 alt="Google Business Profile calls: 236 calls, up 17.4% year over year"
                 fill
-                sizes="(min-width: 768px) 400px, 100vw"
+                sizes="(min-width: 768px) 500px, 100vw"
                 className="object-cover object-top"
               />
             </div>
             <p className="px-5 py-4 text-sm text-dark/60">
-              Calls made directly from the Business Profile, up 17.4% versus last year.
+              Local calls direct from the Business Profile, up 17.4% year over year.
             </p>
           </div>
         </div>
