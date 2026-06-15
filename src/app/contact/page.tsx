@@ -20,6 +20,23 @@ export default function ContactPage() {
       />
 
       <section className="container-page py-16 md:py-24">
+        <div className="mb-10 rounded-2xl border border-line bg-dark p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div>
+            <p className="text-xs uppercase tracking-wide text-lime/70 mb-1">Prefer to talk?</p>
+            <h3 className="font-display text-xl md:text-2xl font-bold text-white">
+              Book a Free Consultation Call Directly
+            </h3>
+          </div>
+          <a
+            href={site.calendly}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-lime px-6 py-3 text-sm font-semibold text-dark hover:bg-lime/90 transition-colors whitespace-nowrap"
+          >
+            Schedule on Calendly
+          </a>
+        </div>
+
         <div className="grid lg:grid-cols-3 gap-10">
           <div className="lg:col-span-2 order-2 lg:order-1">
             <SectionLabel number="01" title="Send a Message" />

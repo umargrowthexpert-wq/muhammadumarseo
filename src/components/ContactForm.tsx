@@ -1,7 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { services } from "@/lib/site-data";
+import { services, site } from "@/lib/site-data";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -46,10 +46,18 @@ export default function ContactForm() {
     return (
       <div className="rounded-2xl border border-line bg-white p-8 text-center">
         <h3 className="font-display text-xl font-bold mb-2">Thanks — message sent!</h3>
-        <p className="text-sm text-dark/60">
+        <p className="text-sm text-dark/60 mb-5">
           I&apos;ll get back to you within 1 business day. In the meantime, feel free to check
           out the case studies or reach me directly via WhatsApp.
         </p>
+        <a
+          href={site.calendly}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-2 rounded-full bg-dark px-6 py-3 text-sm font-semibold text-lime hover:bg-dark/90 transition-colors"
+        >
+          Or Book a Call on Calendly
+        </a>
       </div>
     );
   }
